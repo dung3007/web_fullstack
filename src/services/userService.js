@@ -14,6 +14,7 @@ let hashUserPassword = (password) => {
     })
 }
 
+
 let handleUserLogin = (email, password) => {
     return new Promise( async (resolve, reject) => {
         try {
